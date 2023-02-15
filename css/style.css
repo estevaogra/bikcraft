@@ -38,7 +38,7 @@ menu {
     position: absolute;
 }
 .link-menu:hover::after{
-    width: 74%;
+    width: 65%;
 
 }
 
@@ -90,4 +90,62 @@ menu img {
         width: 430px;
     }
 }
+.introdução {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 10px;
+    background-color: #000;
+    gap: 20px;
+    
+}
+.introdução img {
+    max-width: 90%;
+}
+.div-txt1 {
+   
+    align-self: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 40px;
+} 
+.titulo1 {
+    color: #fff;
+    text-align: start;
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.titulo1::after {
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: rgb(252, 187, 11);
+    border-radius: 50%;
+    
+}
+.par1 { 
+    color: #b2b2b2;
+    text-align: start;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.selecione {
+    text-decoration: none;
+background-image: linear-gradient( #FFBF00,#f2a500);
+color: #000;
+text-align: center;
+padding: 14px 7px;
+max-width: fit-content;
+border-radius: 4px;
+font-family: inherit;
+text-transform: uppercase;
+font-weight: 550;
 
+}
+.selecione:hover {
+    background-image: linear-gradient(#fdcd64 , #eead22) ;
+}
+    main img {
+        margin-right: 40px;
+    }
